@@ -13,7 +13,7 @@ nav{
     align-items: center;
     position: sticky;
     padding: 0 20px;
-    width: 100;
+    width: 100%;
 }
 
 .logo{
@@ -96,7 +96,7 @@ nav{
     align-items: center;
     padding: 70px 70px;
     display: flex;
-    background-color: linear-gradient(to right,#F8F5F2,#FFFDFB);
+  background: linear-gradient(to right,#F8F5F2,#FFFDFB);
 }
 
 .left-side{
@@ -124,7 +124,7 @@ margin-bottom: 16px;
 }
 
 
-.hero-button{
+.hero-buttons{
     display:flex;
     gap:20px;
     margin-bottom:50px;
@@ -174,3 +174,132 @@ margin-bottom: 16px;
     font-size:17px;
     margin-top:8px;
 }
+
+
+.right-side{
+    width: 55%;
+    display: flex;
+    justify-content: center;
+}
+
+.image-container{
+    position: relative;
+    width: 500px;
+}
+
+.right-side{
+    width:55%;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+.image-container{
+    position: relative;
+    width: 400px;
+    height: 400px;
+}
+
+.circle-bg{
+    width:380px;
+    height:380px;
+    background:#D9B08C;
+    border-radius:50%;
+    position:absolute;
+
+    top:60px;
+    left:80px;
+
+    opacity:.4;
+    z-index:1;
+
+}
+
+/* Image Container */
+.image-container{
+    position: relative;
+    width: 500px;
+    height: 500px;
+}
+
+/* Background Circle */
+.circle-bg{
+    width: 420px;
+    height: 420px;
+    background: #D9B08C;
+    border-radius: 50%;
+    position: absolute;
+    top: 20px;
+    left: 30px;
+    opacity: .35;
+    z-index: 1;
+}
+
+/* Coffee Image */
+.image-container img{
+
+    width: 320px;
+    position: absolute;
+    top: 90px;
+    left: 90px;
+    z-index: 2;
+    animation: float 4s ease-in-out infinite;
+    object-fit: contain;
+   
+}
+
+/* Floating Cards */
+.card{
+    position: absolute;
+    background: #fff;
+    padding: 15px 20px;
+    border-radius: 15px;
+    box-shadow: 0 10px 25px rgba(0,0,0,.15);
+    z-index: 5;
+    transition: .3s;
+}
+
+.card:hover{
+    transform: translateY(-8px);
+    box-shadow: 0 15px 35px rgba(0,0,0,.2);
+    }
+
+/* Card Positions */
+.card1{
+    top: 40px;
+    left: -10px;
+}
+
+.card2{
+    top: 150px;
+    right: -20px;
+}
+
+.card3{
+    bottom: 40px;
+    left: 20px;
+}
+
+/* Card Heading */
+.card h4{
+    margin-top: 5px;
+    color: #6F4E37;
+    font-size: 16px;
+}
+
+/* Floating Animation */
+@keyframes float{
+
+    0%{
+        transform: translateY(0);
+    }
+
+    50%{
+        transform: translateX(-15px);
+    }
+
+    100%{
+        transform: translateY(0);
+    }
+}
+
