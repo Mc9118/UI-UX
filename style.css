@@ -215,12 +215,9 @@ nav {
 
 }
 
-<<<<<<< HEAD
-/* Image Container */
-.image-container {
-=======
+
 .image-container{
->>>>>>> ef81ded1ec3a5e9ef64f92dcb40c11febf69a95c
+
     position: relative;
     width: 500px;
     height: 500px;
@@ -239,7 +236,7 @@ nav {
     z-index: 1;
 }
 
-/* Coffee Image */
+
 .image-container img {
 
     width: 320px;
@@ -251,13 +248,7 @@ nav {
     object-fit: contain;
 
 }
-
-<<<<<<< HEAD
-/* Floating Cards */
-.card {
-=======
 .card{
->>>>>>> ef81ded1ec3a5e9ef64f92dcb40c11febf69a95c
     position: absolute;
     background: #fff;
     padding: 15px 20px;
@@ -544,9 +535,6 @@ height: 2px;
 
 /* Menu */
 
-/*======================================
-            POPULAR MENU
-======================================*/
 
 .menu{
     width: 100%;
@@ -554,9 +542,6 @@ height: 2px;
     background: #FFF9F4;
 }
 
-/*======================================
-            HEADING
-======================================*/
 
 .menu .head{
     text-align: center;
@@ -605,11 +590,6 @@ height: 2px;
     font-size: 18px;
     line-height: 1.8;
 }
-
-/*======================================
-            CARD CONTAINER
-======================================*/
-
 .menu-cards{
     display: grid;
     grid-template-columns: repeat(3,1fr);
@@ -617,9 +597,7 @@ height: 2px;
     margin-top: 60px;
 }
 
-/*======================================
-              CARD
-======================================*/
+
 
 .menu-card{
     background: #fff;
@@ -637,9 +615,7 @@ height: 2px;
     box-shadow: 0 25px 50px rgba(0,0,0,.15);
 }
 
-/*======================================
-              IMAGE
-======================================*/
+
 
 .menu-card img{
     width: 220px;
@@ -653,9 +629,6 @@ height: 2px;
     transform: scale(1.05) rotate(-4deg);
 }
 
-/*======================================
-              TITLE
-======================================*/
 
 .menu-card h3{
     font-size: 28px;
@@ -663,9 +636,7 @@ height: 2px;
     margin-bottom: 15px;
 }
 
-/*======================================
-           DESCRIPTION
-======================================*/
+
 
 .menu-card p{
     color: #666;
@@ -674,9 +645,6 @@ height: 2px;
     font-size: 16px;
 }
 
-/*======================================
-             PRICE
-======================================*/
 
 .menu-card span{
     display: block;
@@ -685,10 +653,6 @@ height: 2px;
     color: #8B5E3C;
     margin-bottom: 25px;
 }
-
-/*======================================
-             BUTTON
-======================================*/
 
 .menu-card button{
     width: 100%;
