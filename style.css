@@ -215,8 +215,14 @@ nav {
 
 }
 
+<<<<<<< HEAD
 /* Image Container */
 .image-container {
+=======
+
+.image-container{
+
+>>>>>>> 8ef0b59643416a06f3da6f3fb76a9c023f7a05c5
     position: relative;
     width: 500px;
     height: 500px;
@@ -235,7 +241,7 @@ nav {
     z-index: 1;
 }
 
-/* Coffee Image */
+
 .image-container img {
 
     width: 320px;
@@ -247,9 +253,13 @@ nav {
     object-fit: contain;
 
 }
+<<<<<<< HEAD
 
 /* Floating Cards */
 .card {
+=======
+.card{
+>>>>>>> 8ef0b59643416a06f3da6f3fb76a9c023f7a05c5
     position: absolute;
     background: #fff;
     padding: 15px 20px;
@@ -531,9 +541,6 @@ height: 2px;
 
 /* Menu */
 
-/*======================================
-            POPULAR MENU
-======================================*/
 
 .menu {
     width: 100%;
@@ -541,9 +548,6 @@ height: 2px;
     background: #FFF9F4;
 }
 
-/*======================================
-            HEADING
-======================================*/
 
 .menu .head {
     text-align: center;
@@ -592,21 +596,23 @@ height: 2px;
     font-size: 18px;
     line-height: 1.8;
 }
+<<<<<<< HEAD
 
 /*======================================
             CARD CONTAINER
 ======================================*/
 
 .menu-cards {
+=======
+.menu-cards{
+>>>>>>> 8ef0b59643416a06f3da6f3fb76a9c023f7a05c5
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 35px;
     margin-top: 60px;
 }
 
-/*======================================
-              CARD
-======================================*/
+
 
 .menu-card {
     background: #fff;
@@ -624,9 +630,7 @@ height: 2px;
     box-shadow: 0 25px 50px rgba(0, 0, 0, .15);
 }
 
-/*======================================
-              IMAGE
-======================================*/
+
 
 .menu-card img {
     width: 220px;
@@ -640,9 +644,6 @@ height: 2px;
     transform: scale(1.05) rotate(-4deg);
 }
 
-/*======================================
-              TITLE
-======================================*/
 
 .menu-card h3 {
     font-size: 28px;
@@ -650,9 +651,7 @@ height: 2px;
     margin-bottom: 15px;
 }
 
-/*======================================
-           DESCRIPTION
-======================================*/
+
 
 .menu-card p {
     color: #666;
@@ -670,11 +669,15 @@ height: 2px;
     margin-bottom: 25px;
 }
 
+<<<<<<< HEAD
 /*======================================
              BUTTON
 ======================================*/
 
 .menu-card button {
+=======
+.menu-card button{
+>>>>>>> 8ef0b59643416a06f3da6f3fb76a9c023f7a05c5
     width: 100%;
     padding: 15px;
     border: none;
